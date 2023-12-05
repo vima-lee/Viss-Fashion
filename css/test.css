@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex-shrink: 0;
+}
+.nav-branding{
+text-decoration: none;
+color: black;
+font-size: 25px;
+font-weight: lighter;
+}
+.nav-menu{
+    display: flex;
+    gap: 55px;
+    align-items: flex-start;
+    padding-right: 15px;
+    list-style-type: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 13px;
+    transition: background-color 0.2s ease;
+    color: black;
+}
+.button-text{
+    display: flex;
+    gap: 20px;
+}
+.btn1 button{
+    border: none;
+    background-color: white;
+}
+.btn2 button{
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+#vima{
+    display: flex;
+    padding-top: 60px;
+    gap: 215px;
+}
+
+.vima2{
+    padding-left: 120px;
+}
+.vima2 h4{
+    font-size: 15px;
+    color: skyblue;
+    padding-top: 100px;
+}
+.vima2 p{
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buy button{
+    border: none;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-left: 2px;
+    padding-right: px;
+    padding-bottom: 6px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: orange;
+    color: rgb(235, 224, 224);
+    width: 70px;
+    margin-right: 64px;
+    margin-top: 25px;
+    margin-right: 280px;
+}
+.vima3{
+    padding-left: 70px;
+}
+.vima3 img{
+    height: 430px;
+    width: 430px;
+}
