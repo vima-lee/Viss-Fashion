@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#general-background{
+    max-width: 100%;
+    height: 100vh;
+    /* background-color: rgb(148, 62, 5);   */
+    background-image: linear-gradient(to right, rgb(148, 62, 5) 0%, brown 50%, rgb(148,62,5) 50%, brown 100%); 
+    padding-top: 60px;
+    padding-left: 75px;
+}
+.general-border{
+    width: 60%;
+    height: 700px;
+    display: flex;
+    margin-left: 20%;
+}
+.orange-image img{
+    height:500px;
+    border-radius: 14px;
+}
+.brand-logo{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    border-radius: 14px; 
+}
+.brand-logo img{
+    width: fit-content;
+    height: 20px;
+    position: absolute;
+    top: 4%;
+    right: 140px;
+}
+.heading{
+    text-align: center;
+    /* margin-bottom: 30%; */
+}
+.heading p{
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 10px; */
+    width: 70%;
+    /* margin-left: 40px; */
+    margin: 10px 40px; 
+    gap: 10px;
+}
+.content button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    /* margin: 10px 30px; */
+    background-color: white;
+}
+span{
+    padding-left: 10px;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+.facebook i{
+    color: rgb(12, 175, 240);
+}
+.apple i{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+}
+.google i{
+    /* color: rgb(	52, 168, 83); */
+    background-image: conic-gradient(red,yellow,green);
+    border-radius: 20px;
+    color: whitesmoke;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+}
+.twitter i{
+    color: rgb(12, 175, 240);
+}
